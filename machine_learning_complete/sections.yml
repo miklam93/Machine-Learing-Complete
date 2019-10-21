@@ -1,0 +1,61 @@
+---
+modules:
+  title: "Resources"
+  label: "module"
+  directory: "modules"
+  file_prefix: "week"
+  icon: "home"
+
+exercises:
+  title: "Lab"
+  label: "exercises"
+  directory: "exercises"
+  file_prefix: "exercise"
+  # icon: "tasks"
+
+assignments:
+  title: "Assignment"
+  label: "assignment"
+  directory: "assignments"
+  file_prefix: "project"
+  assignment_type: "Assignment"
+  # icon: "phone"
+
+groups:
+  title: "Group"
+  label: "milestone"
+  directory: "groups"
+  file_prefix: "milestone"
+  assignment_type: "Group Milestone"
+  # icon: "user"
+
+questions:
+  title: "Q&A"
+  label: "questions"
+  directory: "questions"
+  file_prefix: "faq"
+  # icon: "question-sign"
+
+# iOS University
+discussion:
+  title: "Discussion"
+  label: "discussion"
+  directory: "discussion"
+  file_prefix: "discussion"
+
+#  Admin
+instructor:
+  title: "Instruction"
+  label: "instruction"
+  directory: "instruction"
+  file_prefix: "notes"
+  permissions: ['Admin', 'Instructor']
+  icon: "apple"
+
+grading:
+  title: "Grading"
+  label: "grading"
+  directory: "grading"
+  file_prefix: "notes"
+  permissions: ['Admin', 'Instructor', 'Organizer', 'Grader']
+  icon: "list-alt"
